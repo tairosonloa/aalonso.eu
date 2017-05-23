@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	margin: 100px auto 50px;
+	width: 90%;
+	max-width: 600px;
+	font-size: 0;
+}
+
+header {
+	text-align: left;
+	margin-bottom: 30px;
+	color: #222;
+}
+
+header h1 {
+	font-size: 30px;
+}
+
+header h1 label {
+	cursor: pointer;
+}
+
+header p {
+	font-size: 16px;
+}
+
+.linkslist {
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	width: 30%;
+	padding-right: 20px;
+	height: auto;
+}
+
+.linkslist .link {
+	display: inline-block;
+	vertical-align: auto;
+	box-sizing: border-box;
+	font-size: 20px;
+	width: 100%;
+	heigth: auto;
+	transition: all .3s ease-in-out;
+}
+.linkslist .link:hover {
+	padding: 0 0 0 4px;
+}
+
+.linkslist .link * {
+	cursor: pointer;
+}
+
+.wrapper {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	width: 70%;
+	margin-bottom: 50px;
+}
+
+.tab {
+	display: none;
+}
+
+.tab:checked + .tabcontent {
+	opacity: 1;
+	visibility: visible;
+}
+
+.tabcontent {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 270px !important;
+	overflow: auto;
+	margin-bottom: 50px;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: all .2s ease-in-out;
+}
+
+#aboutme p {
+	margin: 5px 0;
+}
