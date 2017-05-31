@@ -10,8 +10,19 @@ body {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
+.main {
+	margin: 50px auto 5px;
+	width: 90%;
+	max-width: 500px;
+	font-size: 16px;
+}
+
 header {
-	margin-bottom: 25px;
+	display: inline-block;
+	width: inherit;
+	max-width: 500px;
+	/*margin-bottom: 25px;*/
+	position: fixed;
 }
 
 header h1 {
@@ -24,19 +35,23 @@ li label {
 	cursor: pointer;
 }
 
-.main {
-	margin: 50px auto 5px;
-	width: 90%;
-	max-width: 500px;
-	font-size: 16px;
+.content-container {
+	position: fixed;
+	display: inline-block;
+	/*height: 486px;*/
+	height: 100%;
+	top 0;
+	width: inherit;
+	max-width: 400px;
+	overflow: hidden;
+	margin-top: 40px;
+	text-align: center;
 }
 
-.content-container {
-	position: relative;
-	height: 486px;
-	overflow: scroll;
-	display: block;
-	text-align: center;
+@media (min-width:400px) {
+	.content-container {
+		margin-left: 5%;
+	}
 }
 
 .toggler {
@@ -50,13 +65,15 @@ li label {
 
 .content {
 	position: absolute;
+	display: inline-block;
 	top: 0;
 	left: 0;
-	padding-left: 10%;
-	width: 80%;
-	height: auto;
+	padding-top: 15px;
+	width: 100%;
+	max-width: 400px;
+	height: 72%;
 	overflow: scroll;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 
 	opacity: 0;
 	visibility: hidden;
@@ -136,8 +153,11 @@ li label {
 }
 
 footer {
-	position: relative;
-	display: block;
+	display: inline-block;
+	position: fixed;
+	width: inherit;
+	max-width: 500px;
+	bottom: 0;
 }
 
 .footer-list {
