@@ -48,9 +48,9 @@ li label {
 	text-align: center;
 }
 
-@media (min-width:400px) {
+@media (min-width:500px) {
 	.content-container {
-		margin-left: 5%;
+		margin-left: 50px;
 	}
 }
 
