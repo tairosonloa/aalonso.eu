@@ -103,6 +103,10 @@ li label {
 	height: 20px;
 }
 
+#projects {
+	text-align: justify;
+}
+
 .skills {
 	height: 476px;
 }
