@@ -11,7 +11,7 @@ body {
 }
 
 main {
-	margin: 50px auto 5px;
+	margin: 0 auto;
 	width: 90%;
 	max-width: 500px;
 }
@@ -21,6 +21,7 @@ header {
 	position: fixed;
 	width: inherit;
 	max-width: 500px;
+	margin-top: 50px;
 	/*margin-bottom: 25px;*/
 }
 
@@ -35,15 +36,17 @@ header h1 {
 	display: block;
 	width: inherit;
 	max-width: 400px;
-	height: 100%;
+	height: 75%;
 	top 0;
 	overflow: hidden;
-	margin-top: 40px;
+	margin-top: 30%;
 }
 
 @media (min-width:500px) {
 	.content-container {
+		height: 78%;
 		margin-left: 50px;
+		margin-top: 15%;
 	}
 }
 
@@ -64,10 +67,9 @@ header h1 {
 	padding-top: 15px;
 	width: 100%;
 	max-width: 400px;
-	height: 70%;
+	height: 90%;
 	overflow: scroll;
 	margin-bottom: 0;
-
 	opacity: 0;
 	visibility: hidden;
 	transition: all .2s ease-in-out;
@@ -80,7 +82,6 @@ header h1 {
 .profile-image {
 	margin-top: 15px;
 	width: 150px;
-	height: 150px;
 	border-radius: 50%;
 }
 
@@ -102,10 +103,6 @@ header h1 {
 
 #projects-div {
 	text-align: justify;
-}
-
-.skills {
-	height: 476px;
 }
 
 .skills .skills-container {
