@@ -37,7 +37,7 @@ li label {
 
 .content-container {
 	position: fixed;
-	display: inline-block;
+	display: block;
 	/*height: 486px;*/
 	height: 100%;
 	top 0;
@@ -64,7 +64,7 @@ li label {
 
 .content {
 	position: absolute;
-	display: inline-block;
+	display: block;
 	top: 0;
 	left: 0;
 	padding-top: 15px;
@@ -173,6 +173,7 @@ li label {
 }
 
 footer {
+	background: rgba(255,255,255,1);
 	display: inline-block;
 	position: fixed;
 	width: inherit;
