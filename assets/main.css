@@ -10,7 +10,7 @@ body {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
-.main {
+main {
 	margin: 50px auto 5px;
 	width: 90%;
 	max-width: 500px;
@@ -45,7 +45,6 @@ li label {
 	max-width: 400px;
 	overflow: hidden;
 	margin-top: 40px;
-	text-align: center;
 }
 
 @media (min-width:500px) {
@@ -103,7 +102,11 @@ li label {
 	height: 20px;
 }
 
-#projects {
+#home-div, #skills-div {
+	text-align: center;
+}
+
+#projects-div {
 	text-align: justify;
 }
 
@@ -115,7 +118,7 @@ li label {
 	display: block;
 	width: 100%;
 	height: auto;
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 
 .skills .skills-container span {
@@ -142,6 +145,15 @@ li label {
 	height: 40px;
 }
 
+#postgresql {
+	display: inline-block;
+	width: 190%;
+}
+
+#contact-div {
+	text-align: justify;
+}
+
 .contact-item {
 	text-align: left;
 	list-style: none;
@@ -154,6 +166,10 @@ li label {
 
 .contact-item a:hover {
 	text-decoration: underline;
+}
+
+#contact-div .sm-list {
+	text-align: center;
 }
 
 @media (min-width:501px) {
@@ -172,7 +188,7 @@ li label {
 		position: fixed;
 		width: inherit;
 		max-width: 500px;
-		bottom: 0;
+		bottom: 2em;
 	}
 }
 
