@@ -14,15 +14,14 @@ main {
 	margin: 50px auto 5px;
 	width: 90%;
 	max-width: 500px;
-	font-size: 16px;
 }
 
 header {
-	display: inline-block;
+	display: block;
+	position: fixed;
 	width: inherit;
 	max-width: 500px;
 	/*margin-bottom: 25px;*/
-	position: fixed;
 }
 
 header h1 {
@@ -31,18 +30,13 @@ header h1 {
 	font-weight: lighter;
 }
 
-li label {
-	cursor: pointer;
-}
-
 .content-container {
 	position: fixed;
 	display: block;
-	/*height: 486px;*/
-	height: 100%;
-	top 0;
 	width: inherit;
 	max-width: 400px;
+	height: 100%;
+	top 0;
 	overflow: hidden;
 	margin-top: 40px;
 }
@@ -70,7 +64,7 @@ li label {
 	padding-top: 15px;
 	width: 100%;
 	max-width: 400px;
-	height: 72%;
+	height: 70%;
 	overflow: scroll;
 	margin-bottom: 0;
 
@@ -178,7 +172,8 @@ footer {
 	position: fixed;
 	width: inherit;
 	max-width: 500px;
-	bottom: 2em;
+	bottom: 0;
+	padding-bottom: 1.5em;
 	border-top: 1px solid black;
 }
 
@@ -195,6 +190,10 @@ footer {
 	padding: 5px;
 	font-family: 'Heebo', Arial, sans-serif;
 	font-size: 14px;
+}
+
+.footer-item label {
+	cursor: pointer;
 }
 
 .footer-item:hover {
