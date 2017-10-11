@@ -10,7 +10,7 @@ body {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
-main {
+.wrapper {
 	margin: 0 auto;
 	width: 90%;
 	max-width: 500px;
@@ -31,7 +31,7 @@ header h1 {
 	font-weight: lighter;
 }
 
-.content-container {
+main {
 	position: fixed;
 	display: block;
 	width: inherit;
@@ -43,8 +43,8 @@ header h1 {
 }
 
 @media (min-width:500px) {
-	.content-container {
-		height: 78%;
+	main {
+		height: 76.5%;
 		margin-left: 50px;
 		margin-top: 15%;
 	}
@@ -146,7 +146,6 @@ header h1 {
 }
 
 .contact-item {
-	text-align: left;
 	list-style: none;
 }
 
@@ -165,7 +164,7 @@ header h1 {
 
 footer {
 	background: rgba(255,255,255,1);
-	display: inline-block;
+	display: block;
 	position: fixed;
 	width: inherit;
 	max-width: 500px;
@@ -183,7 +182,6 @@ footer {
 .footer-item {
 	display: inline-block;
 	list-style: none;
-	width: auto;
 	padding: 5px;
 	font-family: 'Heebo', Arial, sans-serif;
 	font-size: 14px;
