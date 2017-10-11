@@ -1,0 +1,202 @@
+::-webkit-scrollbar {visibility: hidden; display: none;}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*background-color: #FFFFF0;*/
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 500px;
+}
+
+header {
+	display: block;
+	position: fixed;
+	width: inherit;
+	max-width: 500px;
+	margin-top: 30px;
+	/*margin-bottom: 25px;*/
+}
+
+@media (min-width:500px) {
+	header {
+		margin-top: 50px;
+	}
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Heebo', Arial, sans-serif;
+	font-weight: lighter;
+}
+
+main {
+	position: fixed;
+	display: block;
+	width: inherit;
+	max-width: 400px;
+	height: 75%;
+	top 0;
+	overflow: hidden;
+	margin-top: 30%;
+}
+
+@media (min-width:500px) {
+	main {
+		height: 76.5%;
+		margin-top: 100px;
+		margin-left: 50px;
+	}
+}
+
+.toggler {
+	display: none;
+}
+
+.toggler:checked + .content {
+	opacity: 1;
+	visibility: visible;
+}
+
+.content {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	padding-top: 15px;
+	width: 100%;
+	max-width: 400px;
+	height: 90%;
+	overflow: scroll;
+	margin-bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .2s ease-in-out;
+}
+
+.content p{
+	margin-bottom: 15px;
+}
+
+.profile-image {
+	margin-top: 15px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.sm-item {
+	margin-top: 10px;
+	display: inline-block;
+	list-style: none;
+}
+
+.sm-item img {
+	border-radius: 10%;
+	width: 20px;
+	height: 20px;
+}
+
+#home-div, #skills-div {
+	text-align: center;
+}
+
+#projects-div {
+	text-align: justify;
+}
+
+.skills .skills-container {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.skills .skills-container span {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 40px;
+	margin: 10px 10px;
+}
+
+.skills .skills-container span::after {
+	content: attr(data-label);
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	width: 100%;
+	height: auto;
+	padding: 5px 0;
+	font-size: 14px;
+}
+
+.skills .skills-container span img{
+	width: 40px;
+	height: 40px;
+}
+
+#postgresql {
+	display: inline-block;
+	width: 190%;
+}
+
+#contact-div {
+	text-align: justify;
+}
+
+.contact-item {
+	list-style: none;
+}
+
+.contact-item a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.contact-item a:hover {
+	text-decoration: underline;
+}
+
+#contact-div .sm-list {
+	text-align: center;
+}
+
+footer {
+	background: rgba(255,255,255,1);
+	display: block;
+	position: fixed;
+	width: inherit;
+	max-width: 500px;
+	bottom: 0;
+	padding-bottom: 1.5em;
+	border-top: 1px solid black;
+}
+
+.footer-list {
+	text-align: center;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.footer-item {
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font-family: 'Heebo', Arial, sans-serif;
+	font-size: 14px;
+}
+
+.footer-item label {
+	cursor: pointer;
+}
+
+.footer-item:hover {
+	text-decoration: underline;
+}
