@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #FFFFF0;
+	/*background-color: #FFFFF0;*/
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
@@ -172,24 +172,13 @@ li label {
 	text-align: center;
 }
 
-@media (min-width:501px) {
-	footer {
-		display: inline-block;
-		position: relative;
-		width: 100%;
-		max-width: 500px;
-		margin-top: 110%;
-	}
-}
-
-@media (max-width:500px) {
-	footer {
-		display: inline-block;
-		position: fixed;
-		width: inherit;
-		max-width: 500px;
-		bottom: 2em;
-	}
+footer {
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	max-width: 500px;
+	bottom: 2em;
+	border-top: 1px solid black;
 }
 
 .footer-list {
