@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
@@ -21,7 +23,7 @@
 			<!-- Header -->
 			<header id="header">
 				<div class="logo">
-					<img class="icon fa-diamond" id="me" src="images/me.png">
+					<img class="icon" id="me" src="images/me.png">
 				</div>
 				<div class="content">
 					<div class="inner">
@@ -38,7 +40,7 @@
 				</div>
 				<nav>
 					<ul>
-						<li><a href="#blog">Blog</a></li>
+						<!--<li><a href="#blog">Blog</a></li>-->
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -50,8 +52,6 @@
 			<!-- Main -->
 			<div id="main">
 
-				<!-- TODO: CAMBIAR SALTOS DE LÍNEA DE WINDOWS A LINUX -->
-				<!-- TODO: CAMBIAR IDS PARA COINCIDIR CON LOS COMENTARIOS -->
 				<!-- Blog -->
 				<article id="blog">
 					<h2 class="major">Blog</h2>
@@ -62,7 +62,7 @@
 				<!-- Projects -->
 				<article id="projects">
 					<h2 class="major">Projects</h2>
-					<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image main"><img src="images/projects.jpg" alt="" /></span>
 					<h4>[In progress - Paused] A 2048 like game on python using pygame</h4><br>
 					<p>
 						[Paused until I have time to restart]<br>
@@ -97,13 +97,63 @@
 				<!-- Skills -->
 				<article id="skills">
 					<h2 class="major">Skills</h2>
-					<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+					<span class="image main"><img src="images/skills.jpg" alt="" /></span>
+					<p>
+						That's just a part of what I know, but you can find it interesting.
+					</p>
+					<h3>Backend</h3>
+					<div class="skills-container">
+						<span data-label="C"><i class="devicon-c-plain"></i></span>
+						<span data-label="C++"><i class="devicon-cplusplus-plain"></i></span>
+						<span data-label="Java"><i class="devicon-java-plain"></i></span>
+						<span data-label="Python"><i class="devicon-python-plain"></i></span>
+					</div>
+
+					<h3>Frontend</h3>
+					<div class="skills-container">
+						<span data-label="HTML5"><i class="devicon-html5-plain"></i></span>
+						<span data-label="CSS3"><i class="devicon-css3-plain"></i></span>
+						<span data-label="JS"><i class="devicon-javascript-plain"></i></span>
+						<span data-label="JQuery"><i class="devicon-jquery-plain"></i></span>
+					</div>
+
+					<h3>Databases</h3>
+					<div class="skills-container">
+						<span data-label="Oracle"><i class="devicon-oracle-plain"></i></span>
+						<span data-label="MySQL"><i class="devicon-mysql-plain"></i></span>
+						<span data-label="PostgreSQL"><div class="skill_icon_wrapper"><i class="devicon-postgresql-plain"></i></div></span>
+					</div>
+
+					<h3>Environment</h3>
+					<div class="skills-container">
+						<span data-label="Linux"><i class="devicon-linux-plain"></i></span>
+						<span data-label="Git"><i class="devicon-git-plain"></i></span>
+						<span data-label="Nginx"><i class="devicon-nginx-plain"></i></span>
+						<span data-label="Docker"><i class="devicon-docker-plain"></i></span>
+						<span data-label="Wordpress"><div class="skill_icon_wrapper"><i class="devicon-wordpress-plain"></i></div></span>
+						<span data-label="Vim"><i class="devicon-vim-plain"></i></span>
+						<span data-label="GIMP"><i class="devicon-gimp-plain"></i></span>
+						<span data-label="Slack"><i class="devicon-slack-plain"></i></span>
+						<!--<span data-label="Emacs"><img src="images/skills/emacs.png"></span>
+						<span data-label="LaTeX"><img src="images/skills/latex.png"></span>-->
+					</div>
 				</article>
 
 				<!-- Contact -->
 				<article id="contact">
 					<h2 class="major">Contact</h2>
+					<span class="image main"><img src="images/contact.jpg" alt="" /></span>
+					<p>
+						You can contact me by email or check my resume below. Don't forget to visit
+						my GitHub and Linkedin profiles.
+					</p>
+					<p>
+						Resume updated on october 4, 2017.<br>
+						NOTE: Some personal information on my resume (such telephone number and address) is removed
+						due to this PDF is public to all internet. Please, contact me to get the full one.
+					</p>
+					<!-- Contact form -->
+					<!--
 					<form method="post" action="#">
 						<div class="field half first">
 							<label for="name">Name</label>
@@ -122,11 +172,15 @@
 							<li><input type="reset" value="Reset" /></li>
 						</ul>
 					</form>
+					-->
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+						<li><a href="https://github.com/tairosonloa" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://es.linkedin.com/in/aitoralonsonunez" target="_blank" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="mailto:contact@aitoralonso.me" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="cv/Aitor_Alonso_curriculum.pdf" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
 					</ul>
 				</article>
 			</div>
@@ -138,8 +192,7 @@
 
 		</div>
 
-		<!-- TODO: QUÉ ES ESTO? -->
-		<!-- BG -->
+		<!-- Background -->
 		<div id="bg"></div>
 
 	</body>
