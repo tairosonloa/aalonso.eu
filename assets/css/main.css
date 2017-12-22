@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,600italic,400,600");
 
 /* Reset */
 
@@ -116,7 +116,7 @@
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 1rem;
 		line-height: 1.65;
 	}
@@ -336,7 +336,7 @@
 		color: #ffffff;
 		display: block;
 		font-size: 0.8rem;
-		font-weight: 300;
+		font-weight: 400;
 		letter-spacing: 0.2rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -462,7 +462,7 @@
 			cursor: pointer;
 			display: inline-block;
 			font-size: 0.8rem;
-			font-weight: 300;
+			font-weight: 400;
 			margin: 0 0 0.5rem 0;
 			padding-left: 2.65rem;
 			padding-right: 0.75rem;
@@ -959,7 +959,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8rem;
-		font-weight: 300;
+		font-weight: 400;
 		height: 2.75rem;
 		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
@@ -1074,7 +1074,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.65), rgba(19, 21, 25, 0.65)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
