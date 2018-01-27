@@ -7,6 +7,7 @@
 		<!-- favicon -->
 		<link rel="shortcut icon" href="images/me.png"/>
 		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/homepage.css"/>
 		[if lte IE 9]<link rel="stylesheet" href="assets/css/ie9.css"/>[endif]
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
@@ -42,7 +43,7 @@
 				</div>
 				<nav>
 					<ul>
-						<!--<li><a href="#blog">Blog</a></li>-->
+						<li><a href="#blog">Blog</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -50,22 +51,43 @@
 				</nav>
 			</header>
 
-			<!-- TODO: CAMBIAR EQTIQUETA DIV A ETIQUETA MAIN? MIRAR CSS -->
 			<!-- Main -->
-			<div id="main">
+			<main id="main">
 
 				<!-- Blog -->
 				<article id="blog">
 					<h2 class="major">Blog</h2>
-					<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+					<span class="image main"><img src="images/blog.jpg" alt="" /></span>
+					<!-- <div class="entry" itemscope itemtype="http://schema.org/Blog">
+						<h3 class="entry-title" itemprop="headline">
+							<a href="#">Why I chose ArchLinux as my main GNU/Linux distro</a>
+						</h3><div class="entry-metadata">
+							<time itemprop="datePublished" datetime="2018-01-27">January 27, 2018</time>
+						</div>
+					</div> -->
+					<div class="entry" itemscope itemtype="http://schema.org/Blog">
+						<h3 class="entry-title" itemprop="headline">
+							<a href="#">Failure configuring Windows updates. Reverting changes</a>
+						</h3><div class="entry-metadata">
+							<time itemprop="datePublished" datetime="2018-01-27">January 27, 2018</time>
+						</div>
+					</div>
+					<div class="blog-license" id="blog-license-image">
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="license-icon-link">
+							<img alt="Creative Commons license by-nc-sa" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+					</div>
+					<div class="blog-license" id="blog-license-link">
+						All my articles are under
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank">
+							Creative Commons license Attribution-NonCommercial-ShareAlike 4.0 International</a>.
+					</div>
 				</article>
 
 				<!-- Projects -->
 				<article id="projects">
 					<h2 class="major">Projects</h2>
 					<span class="image main"><img src="images/projects.jpg" alt="" /></span>
-					<!-- <h4>[In progress - Paused] A 2048 like game on python using pygame</h4><br>
+					<!-- <h3>[In progress - Paused] A 2048 like game on python using pygame</h3>
 					<p>
 						[Paused until I have time to restart]<br>
 						I'm currently developing a 2048 like game using python 3 and pygame from zero, without seeing the
@@ -76,7 +98,7 @@
 
 					<br><br><br> -->
 
-					<h4>Bash script to remove orphans packages on ArchLinux based distros</h4><br>
+					<h3>Bash script to remove orphans packages on ArchLinux based distros</h3>
 					<p>
 						I have created a bash script that allows the user to remove all orphans packages and their
 						dependencies that aren't used by other packages. It only works on ArchLinux based distros,
@@ -87,7 +109,7 @@
 
 					<br><br><br>
 
-					<h4>Minecraft Server scripts and utilities</h4><br>
+					<h3>Minecraft Server scripts and utilities</h3>
 					<p>
 						I was managing a minecraft server where were playing some friends. I've created some scripts and
 						a systemd service to configure its launch and daily backups. It's a simple code with really simple
@@ -187,7 +209,7 @@
 						<li><a href="cv/Aitor_Alonso_curriculum.pdf" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
 					</ul>
 				</article>
-			</div>
+			</main>
 
 			<!-- Footer -->
 			<footer id="footer">

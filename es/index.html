@@ -7,6 +7,7 @@
 		<!-- favicon -->
 		<link rel="shortcut icon" href="../images/me.png"/>
 		<link rel="stylesheet" href="../assets/css/main.css"/>
+		<link rel="stylesheet" href="../assets/css/homepage.css"/>
 		[if lte IE 9]<link rel="stylesheet" href="../assets/css/ie9.css"/>[endif]
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css"/></noscript>
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
@@ -42,7 +43,7 @@
 				</div>
 				<nav>
 					<ul>
-						<!--<li><a href="#blog">Blog</a></li>-->
+						<li><a href="#blog">Blog</a></li>
 						<li><a href="#projects">Proyectos</a></li>
 						<li><a href="#skills">Habilidades</a></li>
 						<li><a href="#contact">Contacto</a></li>
@@ -50,22 +51,36 @@
 				</nav>
 			</header>
 
-			<!-- TODO: CAMBIAR EQTIQUETA DIV A ETIQUETA MAIN? MIRAR CSS -->
 			<!-- Main -->
-			<div id="main">
+			<main id="main">
 
 				<!-- Blog -->
 				<article id="blog">
 					<h2 class="major">Blog</h2>
-					<span class="image main"><img src="../images/pic01.jpg" alt="" /></span>
-					<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+					<span class="image main"><img src="../images/blog.jpg" alt="" /></span>
+					<div class="entry" itemscope itemtype="http://schema.org/Blog">
+						<h3 class="entry-title" itemprop="headline">
+							<a href="#">Error al configurar las actualizaciones de Windows. Revirtiendo cambios</a>
+						</h3><div class="entry-metadata">
+							<time itemprop="datePublished" datetime="2018-01-27">27 de enero de 2018</time>
+						</div>
+					</div>
+					<div class="blog-license" id="blog-license-image">
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" class="license-icon-link">
+							<img alt="Creative Commons license by-nc-sa" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+					</div>
+					<div class="blog-license" id="blog-license-link">
+						Todos mis artículos están bajo
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank">
+							licencia Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>.
+					</div>
 				</article>
 
 				<!-- Projects -->
 				<article id="projects">
 					<h2 class="major">Proyectos</h2>
 					<span class="image main"><img src="../images/projects.jpg" alt="" /></span>
-					<!-- <h4>[En progreso - Pausado] El juego 2048 con python y pygame</h4><br>
+					<!-- <h3>[En progreso - Pausado] El juego 2048 con python y pygame</h3>
 					<p>
 						[Pausado hasta que tenga tiempo]<br>
 						Estoy desarrollando mi propia versión del mítico juego 2048 usando python 3 y pygame desde cero,
@@ -76,7 +91,7 @@
 
 					<br><br><br> -->
 
-					<h4>Script de bash para eliminar paquetes huérfanos en distribuciones ArchLinux y derivadas</h4><br>
+					<h3>Script de bash para eliminar paquetes huérfanos en distribuciones ArchLinux y derivadas</h3>
 					<p>
 						He creado un script de bash que permite al usuario eliminar todos los paquete huérfanos y sus
 						dependencias que no son usadas por otros paquetes. Solo funciona en distribuciones ArchLinux y
@@ -87,7 +102,7 @@
 
 					<br><br><br>
 
-					<h4>Script y utilidades para servidor Minecraft</h4><br>
+					<h3>Script y utilidades para servidor Minecraft</h3>
 					<p>
 						Estuve administrando un servidor de Minecraft donde estaban jugando algunos amigos. He creado algunos
 						scripts y un servicio de systemd para asegurar su disponibilidad y backups diarias. Es un código y
@@ -188,7 +203,7 @@
 						<li><a href="../cv/Aitor_Alonso_curriculum.pdf" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
 					</ul>
 				</article>
-			</div>
+			</main>
 
 			<!-- Footer -->
 			<footer id="footer">
