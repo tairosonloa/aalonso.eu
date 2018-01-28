@@ -618,6 +618,18 @@
 		#blog-license-link {
 			width: 80%;
 		}
+
+		@media screen and (max-width: 480px) {
+			#main #blog .blog-license {
+				display: block;
+				text-align: center;
+			}
+
+				#blog-license-link {
+					width: 100%;
+				}
+		}
+
 /* Footer */
 
 	#footer {
