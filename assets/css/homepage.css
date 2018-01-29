@@ -135,7 +135,6 @@
 		min-height: 90vh;
 		width: 100%;
 		padding: 2rem;
-		padding-top: 0;
 		z-index: 3;
 	}
 
@@ -144,23 +143,7 @@
 			display: block;
 		}
 
-		@media screen and (max-width: 1680px) {
-
-			#wrapper {
-				padding: 2rem;
-			}
-
-		}
-
 		@media screen and (max-width: 736px) {
-
-			#wrapper {
-				padding: 1rem;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
 
 			#wrapper {
 				padding: 1rem;
