@@ -770,3 +770,8 @@
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
+
+p.justify {
+	text-align: justify;
+	margin-bottom: 1em;
+}
