@@ -19,7 +19,16 @@ export default class AboutContent extends React.Component {
           and data analysis. Always I can, I try to collaborate on projects written in python or go or start my owns.
         </p>
         
+        <h2>Contact</h2>
+        If you want to get in touch with me, just write a mail or contact me on <a href="https://www.linkedin.com/in/aitoralonsonunez" target="_blank" rel="noopener noreferrer"> Linkedin</a>.
         <ContactForm />
+
+        <h2>Resume</h2>
+        You can also download my resume on PDF. The update date of the resume is at the PDF's top right corner.
+        <ul>
+          {/* <li><a href="/resume/Aitor_Alonso_resume.pdf" target="_blank" rel="noopener noreferrer">English Resume</a></li> */}
+          <li><a href="/resume/Aitor_Alonso_curriculum.pdf" target="_blank" rel="noopener noreferrer">Spanish Resume</a></li>
+        </ul>
       </section>
     )
   }
