@@ -56,8 +56,8 @@ export default function NavigationMenu({ data }) {
       <div {...scrollHide}>
         <Bio />
         <div {...linkContainerStyles}>
-          <Link to={`/`}>Blog</Link>
-          <Link to={`/about`}>About</Link>
+          <Link to={`/`}>About</Link>
+          <Link to={`/skills`}>Skills</Link>
           <Link to={`/portfolio`}>Portfolio</Link>
         </div>
         <SocialBar data={data} />

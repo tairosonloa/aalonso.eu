@@ -21,8 +21,9 @@ export default class Bio extends React.Component {
         <h2>
           <Link to="/">aalonso.eu</Link>
         </h2>
-        <p style={{ marginBottom: "0.5rem", textAlign: "center" }}>
-          {`Aitor Alonso`}
+        <h3>{`Aitor Alonso`}</h3>
+        <p>
+          I'm not afraid of making errors, because I'm human, and we learn from our mistakes.
         </p>
       </div>
     )
