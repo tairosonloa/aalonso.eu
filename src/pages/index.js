@@ -8,7 +8,7 @@ import AboutContent from "../components/About"
 const IndexPage = () => (
   <Layout>
     <SEO title="About" keywords={[`Aitor`, `Alonso`, `computer`, `science`, `engineering`, `Madrid`, `developer`, `about`]} />
-    <AboutContent key="about" />
+    <AboutContent />
   </Layout>
 )
 
