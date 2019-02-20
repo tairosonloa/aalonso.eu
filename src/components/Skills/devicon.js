@@ -11,15 +11,18 @@ const styles = css({
 export default class SkillsContent extends React.Component {
   constructor(props) {
     super(props);
-    this.icon = props.name;
-    this.size = props.size;
-    this.hexColor = props.color
-    this.description = props.description
+    // this.icon = props.name;
+    // this.size = props.size;
+    this.hexColor = props.color;
+    this.description = props.description;
+    this.path = props.path;
   }
   render() {
     return (
       <li {...styles}>
-        <img src={"https://icongr.am/devicon/"+this.icon+".svg?size="+this.size+"&color="+this.hexColor} alt=""/>
+        <svg viewBox="0 0 128 128" width="2.66rem">
+          <path fill={this.hexColor} d={this.path}></path>
+        </svg>
         <div>{this.description}</div>
       </li>
     )
