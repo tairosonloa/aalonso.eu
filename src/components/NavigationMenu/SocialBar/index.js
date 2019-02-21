@@ -9,7 +9,8 @@ import TelegramIcon from "./icons/telegram.svg"
 import TwitterIcon from "./icons/twitter.svg"
 import { singleColumnMediaQuery } from "../../../styling"
 
-const iconStyles = scale =>
+
+const iconStyles = (scale, rounded) =>
   css({
     width: 20,
     height: 20,
@@ -28,6 +29,7 @@ const iconStyles = scale =>
     [singleColumnMediaQuery]: {
       margin: `10px`,
     },
+    borderRadius: (rounded ? `50%` : `0`),
   })
 
 const listStyle = css({
@@ -44,9 +46,9 @@ const listStyle = css({
   },
 })
 
-const Icon = ({ icon, url, scale=1.0 }) => (
+const Icon = ({ icon, url, scale=1.0, rounded=false}) => (
   <a className="no-style" rel="noopener noreferrer" target="__blank" href={url}>
-    <img src={icon} alt="" {...iconStyles(scale)} />
+    <img src={icon} alt="" {...iconStyles(scale, rounded)} />
   </a>
 )
 
@@ -128,6 +130,7 @@ export default class SocialBar extends Component {
           <Icon
             url={`//t.me/${data.site.siteMetadata.telegram}`}
             icon={TelegramIcon}
+            rounded={true}
           />
         </li>
         <li>
