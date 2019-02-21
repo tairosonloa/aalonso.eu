@@ -20,7 +20,7 @@ export default class AboutContent extends React.Component {
         </p>
         <p>
         I'm always proactive, such a looking forward to learning. I'm not afraid of making errors, because I'm human,
-        and we learn from our mistakes
+        and we learn from our mistakes.
         </p>
         
         <h2>Contact</h2>
