@@ -21,7 +21,7 @@ export default class SkillsContent extends React.Component {
   render() {
     return (
       <li {...styles}>
-        <svg viewBox="0 0 128 128" width="2.66rem">
+        <svg viewBox="0 0 128 128" width="2.66em">
           {this.extra}
           <path fill={this.hexColor} d={this.path}></path>
         </svg>
