@@ -70,3 +70,7 @@ yarn-error.log
 
 # Testing
 testing
+
+# Lock
+*.lock
+package-lock.json
