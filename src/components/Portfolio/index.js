@@ -1,17 +1,8 @@
 import React from "react"
-import { css } from "glamor"
 
 import PageTitle from "../PageTitle"
 
-const styles = css({
-  margin: 0,
-  padding: 0,
-  display: `inline-block`,
-  textAlign: `center`,
-  listStyle: `none`,
-})
-
-export default class SkillsContent extends React.Component {
+export default class PortfolioContent extends React.Component {
   render() {
     return (
       <section>
