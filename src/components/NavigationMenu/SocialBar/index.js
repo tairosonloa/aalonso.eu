@@ -6,7 +6,6 @@ import GitHubIcon from "./icons/github.svg"
 import LinkedInIcon from "./icons/linkedin.svg"
 import EmailIcon from "./icons/mail-2.svg"
 import TelegramIcon from "./icons/telegram.svg"
-import TwitterIcon from "./icons/twitter.svg"
 import { singleColumnMediaQuery } from "../../../styling"
 
 
@@ -63,7 +62,7 @@ class MailIcon extends React.Component {
     }
   }
 
-  decodeMail = (encodedMail) => {
+  decodeMail = () => {
       let decoded = ""
       for(let i = 0; i < this.state.mail.length; i++){
           decoded += String.fromCharCode(this.state.mail.charCodeAt(i) ^ 33)
@@ -133,12 +132,6 @@ export default class SocialBar extends Component {
             rounded={true}
           />
         </li>
-        <li>
-          <Icon
-            url={`//twitter.com/${data.site.siteMetadata.twitter}`}
-            icon={TwitterIcon}
-          />
-        </li>
       </ul>
     )
   }
@@ -152,7 +145,6 @@ export const SocialBarQuery = graphql`
         linkedIn
         email
         telegram
-        twitter
       }
     }
   }
