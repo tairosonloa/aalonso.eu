@@ -13,17 +13,18 @@ export default class SkillsContent extends React.Component {
     super(props);
     // this.icon = props.name;
     // this.size = props.size;
-    this.hexColor = props.color;
+    // this.hexColor = props.color;
     this.description = props.description;
     this.path = props.path;
     this.extra = props.extra;
+    this.viewBox = (props.viewBox)? props.viewBox : "0 0 128 128";
   }
   render() {
     return (
       <li {...styles}>
-        <svg viewBox="0 0 128 128" width="2.66em">
+        <svg viewBox={this.viewBox} width="2.66em">
           {this.extra}
-          <path fill={this.hexColor} d={this.path}></path>
+          <path fill={`#0645ad`} d={this.path}></path>
         </svg>
         <div>{this.description}</div>
       </li>
