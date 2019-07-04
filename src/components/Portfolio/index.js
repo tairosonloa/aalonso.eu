@@ -25,6 +25,17 @@ export default class PortfolioContent extends React.Component {
         </p>
 
         <article>
+          <h2>My Bachelor's Degree thesis</h2>
+          <p>
+            I made a system to monitor the status of the service of the laboratory of the Computer Engineering Department at my university
+            (Universidad Carlos III de Madrid) as my Bachelor's Degree thesis. <strong>It got a grade of 10 with a distinction of Honor</strong>,
+            which makes me highly proud of it. The implementation and the thesis report (in Spanish) can be found at the links below.
+          </p>
+          Project repository: <a {...breakUrls} rel="noopener noreferrer" target="__blank" href="https://github.com/tairosonloa/bachelor_degree_thesis">https://github.com/tairosonloa/bachelor_degree_thesis</a><br/>
+          Spanish thesis: <a {...breakUrls} href="/TFG/TFG_Aitor_Alonso_Nuñez.pdf" target="_blank" rel="noopener noreferrer">click to view the PDF.</a>
+        </article>
+
+        <article>
           <h2>This site source code</h2>
           <p>
             All the source code of this site is open and provided on a GitHub repository under the <a rel="noopener noreferrer" target="__blank" href="https://github.com/tairosonloa/aalonso.eu/blob/master/LICENSE">GNU AGPLv3 license</a>.

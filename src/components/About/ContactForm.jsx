@@ -22,7 +22,7 @@ export default class ContactForm extends Component {
     return (
       <div>{"E-Mail: "}
         {// eslint-disable-next-line
-        this.state.reveal ? <a href={`mailto:${decoded}`}>{`${decoded}`}</a> : <a onClick={this.onReveal}>Click to reveal</a>}
+        this.state.reveal ? <a target="_blank" rel="noopener noreferrer" href={`mailto:${decoded}`}>{`${decoded}`}</a> : <a onClick={this.onReveal}>Click to reveal</a>}
         <noscript>Please enable Javascript to see the email address.</noscript>
       </div>
     )
