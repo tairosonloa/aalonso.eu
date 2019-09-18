@@ -31,7 +31,7 @@ export default class AboutContent extends React.Component {
         <h2>Resume</h2>
         You can also download my resume on PDF. The update date of the resume is at the PDF's top right corner.
         <ul>
-          {/* <li><a href="/resume/Aitor_Alonso_resume.pdf" target="_blank" rel="noopener noreferrer">English Resume</a></li> */}
+          <li><a href="/resume/Aitor_Alonso_resume.pdf" target="_blank" rel="noopener noreferrer">English Resume</a></li>
           <li><a href="/resume/Aitor_Alonso_curriculum.pdf" target="_blank" rel="noopener noreferrer">Spanish Resume</a></li>
         </ul>
       </section>
