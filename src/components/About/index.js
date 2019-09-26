@@ -9,7 +9,7 @@ export default class AboutContent extends React.Component {
         <PageTitle>Hello! This's me</PageTitle>
         <h2>Who am I</h2>
         <p>
-          I'm Aitor Alonso, and I'm currently studying a Master in Computer Science and Engineering at
+          I'm Aitor Alonso, and I'm currently studying a Master's Degree in Computer Science and Engineering at
           Universidad Carlos III de Madrid, EPS Higher Polytechnic School of Leganés, Spain. Previously, I studied 
           a Bachelor's Degree in Computer Science and Engineering at the same university, where I focused and
           specialized in artificial intelligence and Big Data Analysis.
