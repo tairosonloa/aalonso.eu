@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Aitor Alonso`,
-    description: `¡Hello! I'm Aitor Alonso, and I'm currently studying a Bachelor's Degree in Computer Science and Engineering at Universidad Carlos III de Madrid.`,
+    description: `¡Hello! I'm Aitor Alonso, and I'm currently studying a Master's Degree in Computer Science and Engineering at Universidad Carlos III de Madrid.`,
     author: `Aitor Alonso`,
     siteUrl: `https://aalonso.eu/`,
     github: `tairosonloa`,
