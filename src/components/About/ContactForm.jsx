@@ -18,7 +18,7 @@ export default class ContactForm extends Component {
   }
 
   render() {
-    let decoded = this.decodeMail("@HUNS@MNORNOTOD[aFL@HMBNL") // TODO: static query from site metadata
+    let decoded = this.decodeMail("@HUNS@MNORNOTOD[aFL@HMBNL") // TODO: static query from site
     return (
       <div>{"E-Mail: "}
         {// eslint-disable-next-line

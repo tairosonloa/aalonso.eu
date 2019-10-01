@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://aalonso.eu/`,
     github: `tairosonloa`,
     linkedIn: `aitoralonsonunez`,
-    email: `@HUNS@MNORNOTOD[aFL@HMBNL`,
+    email: `@HUNS@MNORNOTOD[aFL@HMBNL`,
     telegram: `tairosonloa`,
     twitter: `tairosonloa`,
   },
