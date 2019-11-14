@@ -46,7 +46,7 @@ const listStyle = css({
 })
 
 const Icon = ({ icon, url, scale=1.0, rounded=false}) => (
-  <a className="no-style" rel="noopener noreferrer" target="__blank" href={url}>
+  <a className="no-style" rel="noopener noreferrer" target="_blank" href={url}>
     <img src={icon} alt="" {...iconStyles(scale, rounded)} />
   </a>
 )

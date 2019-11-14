@@ -20,12 +20,16 @@ export default class AboutContent extends React.Component {
           and data analysis. My preferred programming languages are Python, Golang and JavaScript. 
         </p>
         <p>
-        I'm always proactive, such a looking forward to learning. I'm not afraid of making errors, because I'm human,
-        and I learn from my mistakes.
+          I'm always proactive, such a looking forward to learning. I'm not afraid of making errors, because I'm human,
+          and I learn from my mistakes.
         </p>
         
         <h2>Contact</h2>
-        If you want to get in touch with me, just write a mail or contact me on <a href="https://www.linkedin.com/in/aitoralonsonunez" target="_blank" rel="noopener noreferrer"> Linkedin</a>.
+        <p>
+          If you want to get in touch with me, just write a mail or contact me on <a href="https://www.linkedin.com/in/aitoralonsonunez" target="_blank" rel="noopener noreferrer"> Linkedin</a>.
+          <br></br>
+          Don't forget to take a look at <a href="https://github.com/tairosonloa/aalonso.eu" target="_blank" rel="noopener noreferrer"> my GitHub profile</a>!
+        </p>
         <ContactForm />
 
         <h2>Resume</h2>
