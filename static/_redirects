@@ -2,3 +2,6 @@
 
 # Redirect default Netlify subdomain to primary domain
 http://aalonso.netlify.com/* http://aalonso.eu/:splat 301!
+
+# New CV redirect
+/resume/* /resume/Aitor_Alonso_Nunez_CV.pdf 301!

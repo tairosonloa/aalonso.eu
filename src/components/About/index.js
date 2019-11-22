@@ -33,10 +33,9 @@ export default class AboutContent extends React.Component {
         <ContactForm />
 
         <h2>Resume</h2>
-        You can also download my resume on PDF. The update date of the resume is at the PDF's top right corner.
+        You can also download my resume on PDF. The update date of the resume is under the "Contact" section. 
         <ul>
-          <li><a href="/resume/Aitor_Alonso_resume.pdf" target="_blank" rel="noopener noreferrer">English Resume</a></li>
-          <li><a href="/resume/Aitor_Alonso_curriculum.pdf" target="_blank" rel="noopener noreferrer">Spanish Resume</a></li>
+          <li><a href="/resume/Aitor_Alonso_Nunez_CV.pdf" target="_blank" rel="noopener noreferrer">English Resume</a></li>
         </ul>
       </section>
     )
