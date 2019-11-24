@@ -1,36 +1,20 @@
-import React from "react"
-import { Link } from "gatsby"
-import { withPrefix } from "gatsby"
-import { css } from "glamor"
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import DefaultLayout from '../components/layout'
+import SEO from '../components/seo'
 
-const divStyles = css({
-  display: `inline-block`,
-  maxWidth: `350px`
-})
+class NotFoundPage extends React.Component {
+  render() {
+    const { data } = this.props
 
-const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <section>
-      <h1>ERROR 404 - NOT FOUND</h1>
-      <div {...divStyles}>
-        <p>
-          It seems that you have accessed a url that does not exist.
-        </p>
-        <p>
-          If you typed the url manually, please check it's correct.
-        </p>
-        <p>
-          If you came here from an internal link or you are sure something was here before, please, contact me
-          so I can fix this. You can find my contact details in the <Link to="/">About page</Link>.
-        </p>
-      </div>
-      <div {...divStyles}><img src={withPrefix("/images/confused_john_travolta.gif")} alt="Confused John Travolta" /></div>
-    </section>
-  </Layout>
-)
+    return (
+      <DefaultLayout>
+        <SEO title="404: Not Found" />
+        <h1>That page doesn&#39;t exist.</h1>
+        <br />
+      </DefaultLayout>
+    )
+  }
+}
 
 export default NotFoundPage
