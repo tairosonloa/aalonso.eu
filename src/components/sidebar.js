@@ -89,6 +89,11 @@ const Sidebar = ({ siteMetadata }) => (
         <div className="copyright">
           <p>
             {new Date().getFullYear()} &copy; {siteMetadata.author}
+            <br/>
+            Made with <i className="fa fa-heart" aria-hidden="true" /> with <a
+              href={`https://www.gatsbyjs.org/`}
+              target="_blank"
+              rel="noopener noreferrer">GatsbyJS</a>.
           </p>
         </div>
       </footer>

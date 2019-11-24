@@ -16,6 +16,10 @@
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  a {
+    color: $body-color;
+  }
 }
 
 .about {
@@ -119,6 +123,14 @@
   margin: auto;
   // max-width: 1000px;
 
+  h2 {
+    width: 100%;
+  }
+
+  a {
+    color: $dark-blue;
+  }
+
   p {
     text-align: justify;
     width: 100%;
@@ -132,8 +144,18 @@
     padding-left: 1.5rem;
   }
 
-  a {
-    color: $dark-blue;
+  .skills-list-container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  
+    .skills-list {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      text-align: center;
+      list-style: none;
+    }
   }
 }
 
