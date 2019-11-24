@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Aitor Alonso`,
+    title: `Full Stack Developer`,
     description: `Full stack developer and part-time studying a MSc in Computer Engineering`,
     author: `Aitor Alonso`,
     siteUrl: `https://aalonso.eu/`,
@@ -10,7 +10,26 @@ module.exports = {
       github: `tairosonloa`,
       linkedin: `aitoralonsonunez`,
       email: `aitor.alonso.nunez@gmail.com`, // TODO: Obfuscate
+      cv: `Aitor_Alonso_Nunez_CV.pdf`
     },
+    menuLinks: [
+      {
+        name: `Blog`,
+        link: `/`,
+      },
+      {
+        name: `About`,
+        link: `/about`,
+      },
+      {
+        name: `Skills`,
+        link: `/skills`,
+      },
+      {
+        name: `Works`,
+        link: `/my-work`,
+      },
+    ],
   },
   plugins: [
     {
@@ -55,7 +74,7 @@ module.exports = {
       options: {
         name: `flexible-gatsby-starter`,
         short_name: `flexible-gatsby`,
-        start_url: `/`,
+        start_url: `/blog`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,

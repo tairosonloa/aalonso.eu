@@ -8,6 +8,8 @@
 
 html {
   line-height: 1.5;
+  // overflow: -moz-scrollbars-vertical; 
+  // overflow-y: scroll;
 }
 
 body {
@@ -21,6 +23,11 @@ body {
 
 h1 {
   font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 img {
@@ -35,7 +42,7 @@ img + em {
   margin-top: 10px;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.85rem;
 }
 
 blockquote {
@@ -76,7 +83,7 @@ table td, table.blueTable th {
   padding: 3px 2px;
 }
 table tbody td {
-  font-size: 13px;
+  font-size: 0.85rem;
 }
 table tr:nth-child(even) {
   background: #adbecc;
@@ -87,7 +94,7 @@ table thead {
   border-bottom: 1px solid #8c8c8c;
 }
 table thead th {
-  font-size: 14px;
+  font-size: 0.85rem;
   font-weight: bold;
   color: #fff;
   border-left: 1px solid #d0e4f5;
@@ -97,7 +104,7 @@ table thead th:first-child {
 }
 
 table tfoot {
-  font-size: 14px;
+  font-size: 0.85rem;
   font-weight: bold;
   color: #fff;
   background: #d0e4f5;
@@ -105,7 +112,7 @@ table tfoot {
   border-top: 2px solid #444;
 }
 table tfoot td {
-  font-size: 14px;
+  font-size: 0.85rem;
 }
 
 .wrapper {

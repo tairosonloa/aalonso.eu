@@ -15,7 +15,7 @@
       .post-title {
         margin: 0 0 5px;
         a {
-          font-size: 21px;
+          font-size: 1.3rem;
         }
       }
     }
@@ -50,7 +50,7 @@
       margin-bottom: 10px;
     }
     .bio {
-      font-size: 16px;
+      font-size: 1rem;
     }
 }
 
@@ -65,10 +65,32 @@
 
   .topbar{
     bottom: 0;
+
+    .list-links {
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+
+      li {
+        display: inline;
+      }
+  
+      .nav-link {
+        text-transform: uppercase;
+        color: $white;
+        text-decoration: none;
+        padding: 1rem 0.5rem;
+      }
+
+      .nav-link:hover {
+        background-color: transparent // No color
+      }
+    }
   }
 
   .content-box {
-    margin-bottom: 4rem;;
+    margin-bottom: 4rem;
+    width: 100%;
   }
 
 .contact-title, .copyright {
@@ -97,7 +119,7 @@
       .post-title {
         margin: 0 0 5px;
         a {
-          font-size: 21px;
+          font-size: 1.3rem;
         }
       }
     }
