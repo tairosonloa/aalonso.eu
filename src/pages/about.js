@@ -4,19 +4,19 @@ import { StaticQuery, graphql } from 'gatsby'
 import DefaultLayout from '../components/layout'
 import SEO from '../components/seo'
 
-// class About extends React.Component {
+
 const About = () => (
   <StaticQuery
     query={graphql`
-      query ContactDataQuery {
+      query AboutDataQuery {
         site {
           siteMetadata {
-            author
-            description
             social {
               linkedin
               github
               email
+            }
+            documents {
               cv
             }
           }
@@ -64,7 +64,7 @@ const About = () => (
           </li>
           <li>
             You can also <a
-            href={`/CV/${data.site.siteMetadata.social.cv}`}
+            href={`${data.site.siteMetadata.documents.cv}`}
             target="_blank" rel="noopener noreferrer">
               download my resume on PDF
             </a>.

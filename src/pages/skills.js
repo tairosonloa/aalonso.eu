@@ -1,4 +1,5 @@
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 
 import DefaultLayout from '../components/layout'
 import SEO from '../components/seo'
@@ -6,17 +7,35 @@ import SEO from '../components/seo'
 import SkillBar from "../components/skills/skillbar"
 import Devicon from "../components/skills/devicon"
 
-class Skills extends React.Component {
-  render() {
-    const { data } = this.props
-
-    return (
+const Skills = () => (
+  <StaticQuery
+    query={graphql`
+      query SkillsDataQuery {
+        site {
+          siteMetadata {
+            social {
+              linkedin
+              github
+              email
+            }
+            documents {
+              cv
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
       <DefaultLayout>
         <SEO title="My skills" />
         <h1>My skills</h1>
         
         <p>
           Those are the technologies I like to highlight. I spend most of my time with them.
+          If you are here looking for my CV, <a
+            href={`${data.site.siteMetadata.documents.cv}`}
+            target="_blank" rel="noopener noreferrer">
+          here it is</a>!
         </p>
 
         <SkillBar name={`Python`} percent={`80%`}/>
@@ -99,8 +118,8 @@ class Skills extends React.Component {
         </div>
 
       </DefaultLayout>
-    )
-  }
-}
+    )}
+  />
+)
 
 export default Skills

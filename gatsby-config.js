@@ -9,8 +9,11 @@ module.exports = {
       facebook: ``,
       github: `tairosonloa`,
       linkedin: `aitoralonsonunez`,
-      email: `aitor.alonso.nunez@gmail.com`, // TODO: Obfuscate
-      cv: `Aitor_Alonso_Nunez_CV.pdf`
+      email: `aitor.alonso.nunez@gmail.com` // TODO: Obfuscate
+    },
+    documents: {
+      cv: `/documents/Aitor_Alonso_Nunez_CV.pdf`,
+      tfg: `/documents/TFG_Aitor_Alonso_Nuñez.pdf`
     },
     menuLinks: [
       {

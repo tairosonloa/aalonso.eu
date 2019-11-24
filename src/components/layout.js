@@ -22,6 +22,8 @@ const DefaultLayout = ({ children }) => (
               linkedin
               github
               email
+            }
+            documents {
               cv
             }
             menuLinks {
