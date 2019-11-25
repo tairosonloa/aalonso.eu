@@ -39,7 +39,10 @@ const Portfolio = () => (
     `}
     render={data => (
       <DefaultLayout>
-        <SEO title="Portfolio" />
+        <SEO
+          title="Portfolio"
+          keywords={[`portfolio`, `fullstack`, `javascript`, `python`, `developer`, `computer`, `science`, `artificial`, `intelligence`, `business`, `big`, `data`]}
+        />
         <h1>Portfolio</h1>
         <p>
           This is just a part of some open source projects in which I'm involved in.

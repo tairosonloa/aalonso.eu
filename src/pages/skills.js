@@ -27,7 +27,10 @@ const Skills = () => (
     `}
     render={data => (
       <DefaultLayout>
-        <SEO title="My skills" />
+        <SEO
+          title="My skills"
+          keywords={[`skills`, `fullstack`, `javascript`, `python`, `developer`, `computer`, `science`, `artificial`, `intelligence`, `business`, `big`, `data`]}
+        />
         <h1>My skills</h1>
         
         <p>

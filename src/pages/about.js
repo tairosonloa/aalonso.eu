@@ -25,7 +25,10 @@ const About = () => (
     `}
     render={data => (
       <DefaultLayout>
-        <SEO title="About" />
+        <SEO
+          title="About"
+          keywords={[`about`, `fullstack`, `javascript`, `python`, `developer`, `computer`, `science`, `artificial`, `intelligence`, `business`, `big`, `data`]}
+        />
         <h1>Hi, I'm Aitor!</h1>
         
         <p className="js">
