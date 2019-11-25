@@ -34,7 +34,7 @@ const About = () => (
         <p className="js">
           I'm a full stack developer and I'm currently studying a MSc in Computer Engineering at the
           Universidad Carlos III de Madrid, Spain. I'm graduated in Computer Science and Engineering
-          from the same university since 2019, where I focused and specialized in omputer science
+          from the same university since 2019, where I focused and specialized in computer science
           and computation (which means artificial intelligence and big data analysis).
         </p>
         <p className="js">
