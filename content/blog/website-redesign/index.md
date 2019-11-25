@@ -20,6 +20,8 @@ I programmed using [Angular](https://angularjs.org/) before but never React, and
 
 However, I was a newbie using React and Gatsby and I did a fast development taking a features rich public starter as a template. As result, I finished with the modern design I wanted to my website, but with a shitty code and without properly understanding of how Gatsby and my website were working. **I made I mistake from which I have learned** to do not repeat it again.
 
-This time, I go through the Gatsby tutorials and took an easy starter template, just with a sidebar and a single page. With the knowledge I acquired through the tutorials, I developed the rest of the website and designed it as I wanted, adding new elements, styles, effects and logic. Now, **I fully understand** how my web if structured (at source code level) and how everything work together. I'm very proud of this new design that reflects my new knowledge and love about Gatsby.
+This time, I went through the Gatsby tutorials and took an easy starter template, just with a sidebar and a single page. With the knowledge I acquired through the tutorials, I developed the rest of the website and designed it as I wanted, adding new elements, styles, effects and logic. Now, **I fully understand** how my web if structured (at source code level) and how everything work together. I'm very proud of this new design that reflects my new knowledge and love about Gatsby.
 
 I hope you like it as the much I love it!
+
+PS: for the curious ones. The web is hosted on [Netlify](https://www.netlify.com/) directly from my [GitHub repository](https://github.com/tairosonloa/aalonso.eu).
