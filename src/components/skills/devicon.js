@@ -15,12 +15,12 @@ export default class SkillsContent extends React.Component {
   }
   render() {
     return (
-      <li className={styles.devicon}>
-        <svg viewBox={this.viewBox} width="2.66rem">
+      <li className={styles.devicon} key={this.description+"a"}>
+        <svg viewBox={this.viewBox} width="2.66rem" key={this.description+"b"}>
           {this.extra}
-          <path fill={this.color} fillRule={this.fillRule} clipRule={this.clipRule} d={this.path}></path>
+          <path fill={this.color} fillRule={this.fillRule} clipRule={this.clipRule} d={this.path}  key={this.description+"c"}></path>
         </svg>
-        <div>{this.description}</div>
+        <div key={this.description+"d"}>{this.description}</div>
       </li>
     )
   }

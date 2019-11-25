@@ -9,7 +9,7 @@ const Sidebar = ({ siteMetadata }) => (
         <div className="about">
           <div className="cover-author-image">
             <Link to="/">
-              <img src="/me.jpg" alt={siteMetadata.author} />
+              <img src="/images/me.jpg" alt={siteMetadata.author} />
             </Link>
           </div>
           <div className="author-name">{siteMetadata.author}</div>
