@@ -54,7 +54,6 @@ const Portfolio = () => (
           name = name.split("_")
           name = name.slice(2, name.length)
           name = name.join(" ")
-          console.log(name)
           return(
             <Link to={"/"+node.node.relativeDirectory} className="portfolio-image-container" key={node.node.childImageSharp.id+"a"}>
               <Img
