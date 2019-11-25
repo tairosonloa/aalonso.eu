@@ -10,9 +10,9 @@ My Bachelor's Degree Thesis consists of a system to monitor the status of the se
 
 The origin of this system responds to **a need I identified when I started to work at** the Computer Science Department at my university. I saw some tasks and things that could be improved, then **I got and idea and I shared it** with my superiors. They liked it so much that they encourage me to make it a reality
 
-My thesis report is written in Spanish under the title "Sistema de monitorización y alertas de estado para el laboratorio del Departamento de Informática". However, it contains a ten pages summary in English. The report can be found at [my university digital archive](https://e-archivo.uc3m.es) (login required) or you can download it directly [from here](https://aalonso.eu/documents/TFG_Aitor_Alonso_Nuñez.pdf).
+My thesis report is written in Spanish under the title "Sistema de monitorización y alertas de estado para el laboratorio del Departamento de Informática". However, it contains a ten pages summary in English. The report can be found at [my university digital archive](https://e-archivo.uc3m.es) (login required) or you can download it directly [from here](/documents/TFG_Aitor_Alonso_Nuñez.pdf).
 
-The repository at GitHub with the source code can be found [here](https://github.com/tairosonloa/bachelor_degree_thesis).
+The repository with the source code can be found [at GitHub](https://github.com/tairosonloa/bachelor_degree_thesis).
 
 
 ## About the system

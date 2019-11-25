@@ -41,7 +41,7 @@ const About = () => (
           as well as improving the knowledge and skills that I have already acquired.
         </p>
         
-        <h2>Contact me</h2>
+        <h2 className="header-text">Contact me</h2>
         
         <ul className="js js-ul">
           <li>
