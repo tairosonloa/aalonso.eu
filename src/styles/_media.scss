@@ -97,6 +97,10 @@
   display: none;
 }
 
+.portfolio-image-overlay {
+  opacity: 0.65 !important;
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -123,5 +127,12 @@
         }
       }
     }
+  }
+  .portfolio-image-container {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .portfolio-image-overlay {
+    opacity: 0.65 !important;
   }
 }

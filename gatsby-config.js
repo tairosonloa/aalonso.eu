@@ -29,8 +29,8 @@ module.exports = {
         link: `/skills`,
       },
       {
-        name: `Works`,
-        link: `/my-work`,
+        name: `Portfolio`,
+        link: `/portfolio`,
       },
     ],
   },
