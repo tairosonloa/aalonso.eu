@@ -6,7 +6,7 @@ img: ./20190701_portfolio_My_Bachelor_Degree_thesis.png # Add image post (option
 tags: [Software, Education, Portfolio, Projects, Go, Python, Javascript, Gatsby, React] # add tag
 ---
 
-My Bachelor's Degree Thesis consists of a system to monitor the status of the service of the laboratory of the Computer Engineering Department at my university (Universidad Carlos III de Madrid), with the aim to simplify the daily work at the laboratory.
+My Bachelor's Degree Thesis consists of a system to monitor the status of the service of the laboratory of the Computer Engineering Department at my university (Universidad Carlos III de Madrid), with the aim to simplify the daily work in there.
 
 The origin of this system responds to **a need I identified when I started to work at** the Computer Science Department at my university. I saw some tasks and things that could be improved, then **I got and idea and I shared it** with my superiors. They liked it so much that they encourage me to make it a reality
 
