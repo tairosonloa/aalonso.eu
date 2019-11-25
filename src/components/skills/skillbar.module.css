@@ -1,0 +1,36 @@
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #263959;
+}
+
+.bar {
+  width: 90%;
+  height: 20px;
+  background: #a0a0a0;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar1 {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.barinner {
+  width: 0;
+  height: 20px;
+  line-height: 35px;
+  background: #263959;
+  border-radius: 5px 0 0 5px;
+  transition: all 2s;
+}
+
+.barpercent {
+  position: absolute;
+  right: 10px;
+  top: -3px;
+  font-size: 1rem;
+  color: #ffffff;
+}
