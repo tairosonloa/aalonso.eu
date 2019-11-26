@@ -66,7 +66,7 @@ const Sidebar = ({ siteMetadata }) => (
             )}
             {siteMetadata.documents.cv && (
               <li>
-                <a href={`/CV/${siteMetadata.documents.cv}`}
+                <a href={`${siteMetadata.documents.cv}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
