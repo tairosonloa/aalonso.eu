@@ -1,6 +1,6 @@
 ---
 title: Website redesign
-date: 2019-07-01
+date: 2019-11-25
 description: # Add post description (optional)
 img: ./20191125_portfolio_Website_redesign.png # Add image post (optional)
 tags: [Software, Portfolio, Projects, Javascript, Gatsby, React] # add tag
