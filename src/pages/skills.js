@@ -41,11 +41,11 @@ const Skills = () => (
           here it is</a>!
         </p>
 
-        <SkillBar name={`Python`} percent={`80%`}/>
-        <SkillBar name={`Go`} percent={`60%`}/>
+        <SkillBar name={`Python`} percent={`85%`}/>
+        <SkillBar name={`Java`} percent={`80%`}/>
         <SkillBar name={`Javascript`} percent={`70%`}/>
         <SkillBar name={`HTML/CSS`} percent={`75%`}/>
-        <SkillBar name={`Linux`} percent={`90%`}/>
+        <SkillBar name={`Linux`} percent={`95%`}/>
         <SkillBar name={`Docker`} percent={`65%`}/>
         <SkillBar name={`Git`} percent={`70%`}/>
 
