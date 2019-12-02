@@ -143,13 +143,26 @@ table tfoot td {
   clear: both;
 }
 
-/* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
-@import 'parts/home-page';
+
+/* - - - - - - - - - - - Layout Styles - - - - - - - - - - - */
+@import 'parts/layout';
+
+/* - - - - - - - - - - Blog Page Styles - - - - - - - - - - */
+@import 'parts/blog-page';
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 @import 'parts/post-page';
 
-/* - - - - - - - - - - Tag Styles - - - - - - - - - - */
+/* - - - - - - - - - - About Page Styles - - - - - - - - - - */
+@import 'parts/about';
+
+/* - - - - - - - - - - Skills Page Styles - - - - - - - - - */
+@import 'parts/skills';
+
+/* - - - - - - - - - Portfolio Page Styles - - - - - - - - - - */
+@import 'parts/portfolio';
+
+/* - - - - - - - - - - Tag Styles - - - - - - - - - - - */
 @import 'parts/tag';
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */

@@ -1,0 +1,59 @@
+.content-box {
+
+  .project {
+    margin-bottom: 1.5rem;
+
+    .break-urls {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      -msWordBreak: break-all;
+      word-break: break-word;
+      -msHyphens: auto;
+      -mozHyphens: auto;
+      -webkitHyphens: auto;
+      hyphens: auto;
+    }
+  }
+
+  .portfolio-image-container {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+
+    .portfolio-image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .portfolio-image-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: $dark-blue;
+
+      .portfolio-image-text {
+        color: $white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    }
+  }
+
+  .portfolio-image-container:hover .portfolio-image-overlay {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,16 @@
+.content-box {
+
+  .skills-list-container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  
+    .skills-list {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      text-align: center;
+      list-style: none;
+    }
+  }
+}
