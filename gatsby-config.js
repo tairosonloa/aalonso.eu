@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Full Stack Developer`,
-    description: `Full stack developer and part-time studying a MSc in Computer Engineering`,
+    description: `Full stack developer and experienced Linux system administrator`,
     author: `Aitor Alonso`,
     siteUrl: `https://aalonso.eu/`,
     social: {
