@@ -1,15 +1,39 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "esnext",
     "jsx": "preserve",
-    "lib": ["dom", "esnext"],
+    "target": "es2018",
+    "module": "esnext",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "sourceMap": true,
     "strict": true,
-    "noEmit": true,
-    "isolatedModules": true,
+    "alwaysStrict": true,
     "esModuleInterop": true,
-    "noUnusedLocals": false,
-    "allowJs": true
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "resolveJsonModule": true
   },
-  "exclude": ["node_modules", "public", ".cache"]
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
