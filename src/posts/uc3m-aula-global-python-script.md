@@ -1,9 +1,8 @@
 ---
 title: How I made a python script to download my university moodle files
 date: 2018-01-30
-description: # Add post description (optional)
-img: ./20180130_portfolio_Python_script_to_download_UC3M_moodle_content.png # Add image post (optional)
-tags: [Software, Education, Portfolio, Projects, Python, Scripting] # add tag
+img: /images/posts/aula-global-python.png
+tags: [Software, Education, Portfolio, Projects, Python, Scripting]
 ---
 
 In my university, Universidad Carlos III de Madrid, we use moodle as our virtual classroom. Professors usually upload all the subjects content to this platform, which we call *[Aula Global](https://aulaglobal.uc3m.es)*. There we the students can find exercises, references, papers, slides, etc.

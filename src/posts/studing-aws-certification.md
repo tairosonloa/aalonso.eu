@@ -1,9 +1,8 @@
 ---
 title: I started to study the AWS Certified Solutions Architect
 date: 2019-09-27
-description: # Add post description (optional)
-img: ./aws-csa.png # Add image post (optional)
-tags: [AWS, Education, System administration, Linux] # add tag
+img: /images/posts/aws-csa.png
+tags: [AWS, Education, System administration, Linux]
 ---
 
 

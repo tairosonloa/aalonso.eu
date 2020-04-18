@@ -1,9 +1,8 @@
 ---
 title: I started to improve my Node.JS knowledge and skills
 date: 2019-12-01
-description: # Add post description (optional)
-img: ./studying-nodejs.png # Add image post (optional)
-tags: [NodeJS, Education, Javascript] # add tag
+img: /images/posts/studying-nodejs.png
+tags: [NodeJS, Education, Javascript]
 ---
 
 

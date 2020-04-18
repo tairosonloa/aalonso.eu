@@ -1,9 +1,8 @@
 ---
 title: My Bachelor's Degree thesis
 date: 2019-07-01
-description: # Add post description (optional)
-img: ./20190701_portfolio_My_Bachelor_Degree_thesis.png # Add image post (optional)
-tags: [Software, Education, Portfolio, Projects, Go, Python, Javascript, Gatsby, React] # add tag
+img: /images/posts/bachelor-degree-thesis-diagram.png
+tags: [Software, Education, Portfolio, Projects, Go, Python, Javascript, Gatsby, React]
 ---
 
 My Bachelor's Degree Thesis consists of a system to monitor the status of the service of the laboratory of the Computer Engineering Department at my university (Universidad Carlos III de Madrid), with the aim to simplify the daily work in there.
@@ -35,7 +34,7 @@ The system architecture is composed of the following elements:
 
 
 
-![System architecture diagram](./20190701_portfolio_My_Bachelor_Degree_thesis.png)
+![System architecture diagram](/images/posts/bachelor-degree-thesis-diagram.png)
 <p align="center">
 Figure 1: system architecture diagram.
 </p>

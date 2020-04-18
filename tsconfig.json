@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2018",
-    "lib": ["es2018", "dom", "dom.iterable", "esnext"],
+    "target": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable"],
     "allowJs": true,
     "strict": true,
     "alwaysStrict": true,
@@ -17,11 +17,12 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "es6",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "skipLibCheck": true
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
