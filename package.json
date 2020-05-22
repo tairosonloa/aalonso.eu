@@ -1,58 +1,59 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "aalonso.eu",
   "private": true,
-  "description": "A starter for a paginated blog powered by Gatsby and Markdown",
-  "version": "1.1.0",
-  "author": "Nicky Meuleman",
-  "bugs": {
-    "url": "https://github.com/NickyMeuleman/gatsby-paginated-blog/issues"
-  },
+  "description": "Aitor Alonso",
+  "version": "0.1.0",
+  "author": "Aitor Alonso <aalonso@aalonso.eu>",
   "dependencies": {
-    "gatsby": "^2.18.3",
-    "gatsby-image": "^2.2.33",
-    "gatsby-plugin-feed": "^2.3.21",
-    "gatsby-plugin-google-analytics": "^2.1.28",
-    "gatsby-plugin-manifest": "^2.2.29",
-    "gatsby-plugin-offline": "^3.0.23",
-    "gatsby-plugin-react-helmet": "^3.1.15",
-    "gatsby-plugin-sass": "^2.1.23",
-    "gatsby-plugin-sharp": "^2.3.3",
-    "gatsby-remark-external-links": "0.0.4",
-    "gatsby-remark-images": "^3.1.33",
-    "gatsby-remark-prismjs": "^3.3.24",
-    "gatsby-source-filesystem": "^2.1.38",
-    "gatsby-transformer-remark": "^2.6.37",
-    "gatsby-transformer-sharp": "^2.3.5",
-    "node-sass": "^4.13.0",
-    "prismjs": "^1.17.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "gatsby": "^2.0.115",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-glamor": "^2.0.8",
+    "gatsby-plugin-manifest": "^2.0.17",
+    "gatsby-plugin-netlify": "^2.1.17",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-remark-copy-linked-files": "^2.0.9",
+    "gatsby-remark-images": "^3.0.3",
+    "gatsby-remark-prismjs": "^3.2.4",
+    "gatsby-remark-responsive-iframe": "^2.0.9",
+    "gatsby-remark-smartypants": "^2.0.8",
+    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-remark": "^2.2.4",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "glamor": "^2.20.40",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-helmet": "^5.2.0"
   },
-  "devDependencies": {
-    "eslint": "^6.7.1",
-    "eslint-plugin-react": "^7.16.0",
-    "prettier": "^1.19.1"
-  },
-  "homepage": "https://github.com/NickyMeuleman/gatsby-paginated-blog#readme",
   "keywords": [
-    "gatsby"
+    "Aitor",
+    "Alonso",
+    "computer",
+    "science",
+    "engineering",
+    "Madrid",
+    "portfolio",
+    "blog",
+    "developer"
   ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NickyMeuleman/gatsby-paginated-blog.git"
-  },
+  "license": "AGPL-3.0",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
     "develop": "gatsby develop",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
-    "deploy": "gh-pages -d public"
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tairosonloa/aalonso.eu"
+  },
+  "bugs": {
+    "url": "https://github.com/tairosonloa/aalonso.eu/issues"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0"
   }
 }
