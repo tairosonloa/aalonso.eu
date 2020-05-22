@@ -1,6 +1,6 @@
-import React from "react"
-import { css } from "glamor"
 import { Link } from "gatsby"
+import { css } from "glamor"
+import React from "react"
 import profilePic from "./me.png"
 
 const imageStyles = css({
@@ -23,7 +23,7 @@ export default class Bio extends React.Component {
         </h2>
         <h3>{`Aitor Alonso`}</h3>
         <p>
-          I'm not afraid of making errors, because I'm human, and we learn from our mistakes.
+          Full stack developer and experienced Linux system administrator
         </p>
       </div>
     )

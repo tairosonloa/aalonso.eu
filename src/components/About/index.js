@@ -9,19 +9,14 @@ export default class AboutContent extends React.Component {
         <PageTitle>Hello! This's me</PageTitle>
         <h2>Who am I</h2>
         <p>
-          I'm Aitor Alonso, and I'm currently studying a Master's Degree in Computer Science and Engineering at
-          Universidad Carlos III de Madrid, EPS Higher Polytechnic School of Leganés, Spain. Previously, I studied 
-          a Bachelor's Degree in Computer Science and Engineering at the same university, where I focused and
-          specialized in artificial intelligence and Big Data Analysis.
+          I'm a full stack developer whos is currently studying a MSc in Computer Engineering at the Universidad Carlos III de Madrid, Spain.
+          I'm graduated in Computer Science and Engineering from the same university since 2019, where I focused and specialized in computer
+          science and computation (which means artificial intelligence and big data analysis).
         </p>
         <p>
-          Free software lover, computing enthusiast and full-stack developer. I spend most of my time learning new things
-          and improving my knowledge and skills. I'm crazy by the world of machine learning, artificial neural networks,
-          and data analysis. My preferred programming languages are Python, Golang and JavaScript. 
-        </p>
-        <p>
-          I'm always proactive, such a looking forward to learning. I'm not afraid of making errors, because I'm human,
-          and I learn from my mistakes.
+          Proactive, enthusiastic and curious. I never hesitate stepping out of my comfort zone to discover the unknown. What I learn in class
+          or at work isn't enough for me, because I always can learn something new. Therefore, I take every free moment I have to keep learning,
+          as well as improving the knowledge and skills that I have already acquired.
         </p>
         
         <h2>Contact</h2>
