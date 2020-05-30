@@ -2,7 +2,6 @@ import { css } from "glamor"
 import React from "react"
 import PageTitle from "../PageTitle"
 import Devicon from "./devicon"
-import SkillBar from "./skillbar"
 
 
 const styles = css({
@@ -20,23 +19,10 @@ export default class SkillsContent extends React.Component {
         <PageTitle>My skills</PageTitle>
         <p>
           Those are the technologies I like to highlight. I spend most of my time with them.
-          If you are here looking for my CV, <a
+          You also can take a look at <a
             href="/documents/Aitor_Alonso_Nunez_CV.pdf"
             target="_blank" rel="noopener noreferrer">
-          here it is</a>!
-        </p>
-
-        <SkillBar name={`NodeJS`} percent={`90%`}/>
-        <SkillBar name={`TypeScript`} percent={`90%`}/>
-        <SkillBar name={`React`} percent={`75%`}/>
-        <SkillBar name={`Linux`} percent={`95%`}/>
-        <SkillBar name={`Git`} percent={`80%`}/>
-        <SkillBar name={`Docker`} percent={`70%`}/>
-        <SkillBar name={`Python`} percent={`70%`}/>
-
-        <p>
-          However, there are a lot of technologies I know, with which I work or I've worked
-          for a reasonable amount of time. Take a look:
+          my CV</a> if you want to.
         </p>
         
         <h2>Backend</h2>
